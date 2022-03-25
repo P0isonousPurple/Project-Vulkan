@@ -17,9 +17,7 @@ jobs:
       - name: Test Run
         uses: game-ci/unity-test-runner@v2
         env:
-            UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
-            UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
-            UNITY_SERIAL: ${{ secrets.UNITY_SERIAL }}
+            UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
         with:
             githubToken: ${{ secrets.GITHUB_TOKEN }}
       
@@ -33,9 +31,7 @@ jobs:
       - name: Build Game
         uses: game-ci/unity-builder@v2
         env:
-          UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
-          UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
-          UNITY_SERIAL: ${{ secrets.UNITY_SERIAL }}
+          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
         with:
           targetPlatform: StandaloneWindows64
           
