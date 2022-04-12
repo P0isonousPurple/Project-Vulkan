@@ -1,4 +1,4 @@
-![Image Title](https://otto-spaude.me/gh-media/project-vulkan-light.png)
+![Image Title](https://otto-spaude.me/gh-media/project-vulkan-light-v3.png)
 # Project Information
 **Unity Version**  
 2021.1.*f1
