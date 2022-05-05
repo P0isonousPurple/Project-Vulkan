@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class VolkanoExplosion : MonoBehaviour
+public class VolcanoExplosion : MonoBehaviour
 {
     public GameObject volcanoprefab;
     public float explosionPower, explosionRaduis, explosionRange, explosionTimer;
@@ -41,12 +41,13 @@ public class VolkanoExplosion : MonoBehaviour
         if (Input.GetButtonDown("Fire2") || explosionTimer <= 0f)
         {
             Collider [] hitcolliders = Physics.OverlapSphere(volcanoInstantiation.transform.position, explosionRaduis);
-            foreach (  var hitcollider in hitcolliders)
+            foreach (  Collider hitcollider in hitcolliders)
             {
-                if (hitcollider.transform.GetComponent<Rigidbody>() != null)
+                var hitRB = hitcollider.GetComponent<Rigidbody>();
+                if (hitRB != null)
                 {
-
-                    hitcollider.transform.GetComponent<Rigidbody>().AddForce(hitcollider.transform.position - volcanoInstantiation.transform.position) * explosionPower + hitcollider.transform.up * explosionPower * 2f);
+                    Transform hitTransform = hitcollider.transform;
+                    hitRB.AddForce((hitTransform.position - volcanoInstantiation.transform.position * explosionPower) + hitTransform.up * (explosionPower * 2f));
                 }
             }
             explosionparticles = ParticleSystem.Instantiate(explosionprefab, volcanoInstantiation.transform.position, Quaternion.identity);
