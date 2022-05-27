@@ -1,0 +1,105 @@
+[1mdiff --cc Assets/Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset[m
+[1mindex 1606c953d,15139d52a..000000000[m
+[1mdeleted file mode 100644,100644[m
+[1m--- a/Assets/Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset[m
+[1m+++ /dev/null[m
+[1mdiff --cc Assets/Scenes/MainMenu.unity[m
+[1mindex 2363afc9b,f825c1357..000000000[m
+[1mdeleted file mode 100644,100644[m
+[1m--- a/Assets/Scenes/MainMenu.unity[m
+[1m+++ /dev/null[m
+[1mdiff --cc Assets/Scenes/Vesuvus.unity[m
+[1mindex e6ea6b7cf,f92a92518..000000000[m
+[1mdeleted file mode 100644,100644[m
+[1m--- a/Assets/Scenes/Vesuvus.unity[m
+[1m+++ /dev/null[m
+[1mdiff --cc Packages/manifest.json[m
+[1mindex 653a99bab,651c90343..000000000[m
+[1mdeleted file mode 100644,100644[m
+[1m--- a/Packages/manifest.json[m
+[1m+++ /dev/null[m
+[1mdiff --cc Packages/packages-lock.json[m
+[1mindex eaf848b59,7c3c77492..000000000[m
+[1mdeleted file mode 100644,100644[m
+[1m--- a/Packages/packages-lock.json[m
+[1m+++ /dev/null[m
+[1mdiff --cc ProjectSettings/GraphicsSettings.asset[m
+[1mindex b21d33342,0952b570e..000000000[m
+[1mdeleted file mode 100644,100644[m
+[1m--- a/ProjectSettings/GraphicsSettings.asset[m
+[1m+++ /dev/null[m
+[1mdiff --cc ProjectSettings/HDRPProjectSettings.asset[m
+[1mindex fcc3d0364,04129336b..000000000[m
+[1mdeleted file mode 100644,100644[m
+[1m--- a/ProjectSettings/HDRPProjectSettings.asset[m
+[1m+++ /dev/null[m
+[1mdiff --cc ProjectSettings/ProjectSettings.asset[m
+[1mindex d75842a50,d7e3d6485..000000000[m
+[1mdeleted file mode 100644,100644[m
+[1m--- a/ProjectSettings/ProjectSettings.asset[m
+[1m+++ /dev/null[m
+[1mdiff --cc ProjectSettings/TagManager.asset[m
+[1mindex 1c92a7840,ea8953aa7..000000000[m
+[1mdeleted file mode 100644,100644[m
+[1m--- a/ProjectSettings/TagManager.asset[m
+[1m+++ /dev/null[m
+[1mdiff --cc ProjectSettings/VFXManager.asset[m
+[1mindex c258b1ce1,b004c5edb..000000000[m
+[1mdeleted file mode 100644,100644[m
+[1m--- a/ProjectSettings/VFXManager.asset[m
+[1m+++ /dev/null[m
+[1mdiff --cc UserSettings/EditorUserSettings.asset[m
+[1mindex be5b21d0c,532b2d916..000000000[m
+[1mdeleted file mode 100644,100644[m
+[1m--- a/UserSettings/EditorUserSettings.asset[m
+[1m+++ /dev/null[m
+[1mdiff --cc UserSettings/Layouts/CurrentMaximizeLayout.dwlt[m
+[1mindex 1465df7cb,097c39e19..000000000[m
+[1mdeleted file mode 100644,100644[m
+[1m--- a/UserSettings/Layouts/CurrentMaximizeLayout.dwlt[m
+[1m+++ /dev/null[m
+[1mdiff --cc UserSettings/Layouts/default-2021.dwlt[m
+[1mindex 6a0b8ede3,36b79e7ff..000000000[m
+[1mdeleted file mode 100644,100644[m
+[1m--- a/UserSettings/Layouts/default-2021.dwlt[m
+[1m+++ /dev/null[m
+[1mdiff --git a/Assets/Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset.meta b/Assets/Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset.meta[m
+[1mdeleted file mode 100644[m
+[1mindex 42dd6acd8..000000000[m
+[1m--- a/Assets/Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset.meta[m	
+[1m+++ /dev/null[m
+[36m@@ -1,8 +0,0 @@[m
+[31m-fileFormatVersion: 2[m
+[31m-guid: 2e498d1c8094910479dc3e1b768306a4[m
+[31m-timeCreated: 1484171803[m
+[31m-licenseType: Pro[m
+[31m-NativeFormatImporter:[m
+[31m-  userData: [m
+[31m-  assetBundleName: [m
+[31m-  assetBundleVariant: [m
+[1mdiff --git a/Assets/Scenes/MainMenu.unity.meta b/Assets/Scenes/MainMenu.unity.meta[m
+[1mdeleted file mode 100644[m
+[1mindex f8863638d..000000000[m
+[1m--- a/Assets/Scenes/MainMenu.unity.meta[m
+[1m+++ /dev/null[m
+[36m@@ -1,7 +0,0 @@[m
+[31m-fileFormatVersion: 2[m
+[31m-guid: 3fa13d0926a52b3418979019cdb7d9a5[m
+[31m-DefaultImporter:[m
+[31m-  externalObjects: {}[m
+[31m-  userData: [m
+[31m-  assetBundleName: [m
+[31m-  assetBundleVariant: [m
+[1mdiff --git a/Assets/Scenes/Vesuvus.unity.meta b/Assets/Scenes/Vesuvus.unity.meta[m
+[1mdeleted file mode 100644[m
+[1mindex 1ae79670e..000000000[m
+[1m--- a/Assets/Scenes/Vesuvus.unity.meta[m
+[1m+++ /dev/null[m
+[36m@@ -1,7 +0,0 @@[m
+[31m-fileFormatVersion: 2[m
+[31m-guid: db17872f34aa618478ad483b65589d85[m
+[31m-DefaultImporter:[m
+[31m-  externalObjects: {}[m
+[31m-  userData: [m
+[31m-  assetBundleName: [m
+[31m-  assetBundleVariant: [m
