@@ -10,8 +10,6 @@ namespace ProjectVulkan
 {
     public class SceneLoader : MonoBehaviour
     {
-        [SerializeField] private TextMeshProUGUI percentLoaded;
-        [SerializeField] private Slider progressBar;
         [SerializeField] private CanvasGroup loadingScreenGroup;
 
         private AsyncOperation loadingOperation;
@@ -27,8 +25,6 @@ namespace ProjectVulkan
             loadingScreenGroup.alpha = 1f;
             while (!loadingOperation.isDone)
             {
-                percentLoaded.text = Mathf.Round(loadingOperation.progress * 100) + "%";
-                progressBar.value = Mathf.Clamp01(loadingOperation.progress / .9f);
                 yield return null;
             }
         }

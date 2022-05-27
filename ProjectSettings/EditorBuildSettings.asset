@@ -7,11 +7,8 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
-    guid: 3fa13d0926a52b3418979019cdb7d9a5
+    guid: 3711a4ac03afd724db4f84ebf245e230
   - enabled: 1
-    path: Assets/Scenes/Vesuvus.unity
-    guid: db17872f34aa618478ad483b65589d85
-  - enabled: 1
-    path: Assets/Scenes/DoNotEdit.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    path: Assets/Scenes/Vesuvius.unity
+    guid: 0eb1c448471e3f449b390c1e98efd4f6
   m_configObjects: {}

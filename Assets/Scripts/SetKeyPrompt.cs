@@ -14,5 +14,13 @@ namespace ProjectVulkan
 		{
 			_text.text = $"Press <color=red>{_trigger.GetTriggerKeyCode()}</color> key to begin the simulation";
 		}
+
+		private void Update()
+		{
+			if (_trigger._isExpired)
+			{
+				_text.text = "";
+			}
+		}
 	}
 }

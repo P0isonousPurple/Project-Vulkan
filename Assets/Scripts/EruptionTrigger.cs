@@ -11,7 +11,7 @@ namespace ProjectVulkan
 		[SerializeField] private ParticleSystem _particleEffect;
 
 		private AudioSource _source;
-		private bool _isExpired;
+		private bool _isExpired = false;
 
 		public KeyCode GetTriggerKeyCode() => _triggerKey;
 
@@ -25,7 +25,7 @@ namespace ProjectVulkan
 			if(Input.GetKeyDown(_triggerKey) && !_isExpired)
 			{
 				if (_particleEffect != null) { _particleEffect.Play(); }
-				if(_source != null) { _source.Play(); }
+				if(_source != null) {_source.Play();}
 				_isExpired = true;
 			}
 		}
