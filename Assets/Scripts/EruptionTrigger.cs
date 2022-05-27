@@ -11,7 +11,7 @@ namespace ProjectVulkan
 		[SerializeField] private ParticleSystem _particleEffect;
 
 		private AudioSource _source;
-		private bool _isExpired = false;
+		public bool _isExpired = false;
 
 		public KeyCode GetTriggerKeyCode() => _triggerKey;
 
